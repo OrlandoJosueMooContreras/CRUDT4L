@@ -1,0 +1,89 @@
+body
+{
+    background-image:url(/background.jpg) ;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table
+{
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgba(128,128,128);
+
+}
+
+table.list
+{
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+td
+{
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px 15px;
+    border-radius: 9px;
+
+
+}
+
+tr:nth-child(even), table.list thread> tr
+{
+    background-color: rgb(128,128,128);
+}
+
+input[type="text"], input[type="number"] 
+{
+    width: 85%;
+    padding: 10px 16px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+input[type="submit"], input[type="reset"] 
+{
+    background: rgb(17, 16, 16);
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover
+{
+    background: rgb(65, 134, 167);
+}
+
+input[type="reset"]:hover
+{
+    background: rgb(65, 134, 167);
+}
+
+button
+{
+    background: #4b99d8;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover
+{
+    background: #eee;
+}
